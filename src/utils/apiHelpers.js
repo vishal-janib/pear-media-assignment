@@ -1,8 +1,3 @@
-import axios from "axios";
-
-const GEMINI_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
-
 export const enhancePrompt = async (prompt) => {
   try {
     const response = await fetch(
